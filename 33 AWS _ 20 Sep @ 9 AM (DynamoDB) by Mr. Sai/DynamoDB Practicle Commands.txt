@@ -1,0 +1,16 @@
+     DynamoDB
+.curl -sS https://getcomposer.org/installer | php (inside html folder)
+.php composer.phar require aws/aws-sdk-php (inside html folder)
+
+
+
+aws dynamodb get-item --table-name ProductCatalog --key '{"Id":{"N":"205"}}'
+
+
+
+
+
+
+
+
+

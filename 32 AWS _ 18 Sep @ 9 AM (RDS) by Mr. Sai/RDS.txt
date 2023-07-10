@@ -1,0 +1,9 @@
+
+CREATE TABLE IF NOT EXISTS courses (
+    course_id INT AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    trainer VARCHAR(255),
+    publish_data DATE,
+    description TEXT,
+    PRIMARY KEY (course_id)
+)  ENGINE=INNODB;
